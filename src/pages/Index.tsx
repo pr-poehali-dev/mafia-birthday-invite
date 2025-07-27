@@ -116,78 +116,56 @@ const Index = () => {
             Дресс-код
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="max-w-2xl mx-auto">
             <Card className="bg-card/80 border-secondary">
               <CardHeader>
-                <CardTitle className="font-cormorant text-2xl text-secondary flex items-center justify-center gap-3">
-                  <Icon name="Shirt" size={28} />
-                  Для джентльменов
+                <CardTitle className="font-cormorant text-3xl text-secondary text-center">
+                  Цветовая палитра вечера
                 </CardTitle>
+                <CardDescription className="text-center text-lg">
+                  Строго соблюдайте цветовой код семьи
+                </CardDescription>
               </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-left">
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Черный костюм-тройка
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Белая рубашка с запонками
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Черный галстук или красная бабочка
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Черные кожаные туфли
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Красный платок в нагрудном кармане
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Черная федора (обязательно)
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-card/80 border-secondary">
-              <CardHeader>
-                <CardTitle className="font-cormorant text-2xl text-secondary flex items-center justify-center gap-3">
-                  <Icon name="Sparkles" size={28} />
-                  Для дам
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-left">
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Черное или белое вечернее платье
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Красные украшения или перчатки
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Черные высокие каблуки
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Белая или черная меховая накидка
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Красная помада - обязательно
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-primary" />
-                    Винтажная прическа с красными деталями
-                  </li>
-                </ul>
+              <CardContent className="space-y-8">
+                <div className="grid grid-cols-3 gap-6 text-center">
+                  <div className="space-y-3">
+                    <div className="w-16 h-16 bg-black border-2 border-secondary rounded-full mx-auto"></div>
+                    <h3 className="font-cormorant text-xl font-semibold text-secondary">Черный</h3>
+                    <p className="text-sm text-muted-foreground">Основной цвет костюмов и платьев</p>
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <div className="w-16 h-16 bg-white border-2 border-secondary rounded-full mx-auto"></div>
+                    <h3 className="font-cormorant text-xl font-semibold text-secondary">Белый</h3>
+                    <p className="text-sm text-muted-foreground">Рубашки, аксессуары и акценты</p>
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <div className="w-16 h-16 bg-primary border-2 border-secondary rounded-full mx-auto"></div>
+                    <h3 className="font-cormorant text-xl font-semibold text-secondary">Красный</h3>
+                    <p className="text-sm text-muted-foreground">Детали и украшения для стиля</p>
+                  </div>
+                </div>
+                
+                <div className="pt-6 border-t border-muted">
+                  <div className="grid md:grid-cols-2 gap-6 text-center">
+                    <div className="space-y-3">
+                      <Icon name="Shirt" size={40} className="text-secondary mx-auto" />
+                      <h4 className="font-cormorant text-xl font-semibold">Джентльмены</h4>
+                      <p className="text-sm text-muted-foreground">
+                        Элегантный черно-белый образ с красными акцентами: галстук, платок или запонки
+                      </p>
+                    </div>
+                    
+                    <div className="space-y-3">
+                      <Icon name="Sparkles" size={40} className="text-secondary mx-auto" />
+                      <h4 className="font-cormorant text-xl font-semibold">Дамы</h4>
+                      <p className="text-sm text-muted-foreground">
+                        Изысканное черное или белое платье с красными украшениями: помада, перчатки или аксессуары
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
