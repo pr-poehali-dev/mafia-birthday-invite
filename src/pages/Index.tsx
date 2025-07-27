@@ -127,24 +127,28 @@ const Index = () => {
               <CardContent>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Темный костюм-тройка
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Черный костюм-тройка
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
+                    <Icon name="Check" size={16} className="text-primary" />
                     Белая рубашка с запонками
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Галстук или бабочка
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Черный галстук или красная бабочка
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Кожаные туфли
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Черные кожаные туфли
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Федора (по желанию)
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Красный платок в нагрудном кармане
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Черная федора (обязательно)
                   </li>
                 </ul>
               </CardContent>
@@ -160,24 +164,28 @@ const Index = () => {
               <CardContent>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Элегантное вечернее платье
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Черное или белое вечернее платье
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Жемчуг или золотые украшения
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Красные украшения или перчатки
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Высокие каблуки
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Черные высокие каблуки
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Меховая накидка (по сезону)
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Белая или черная меховая накидка
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon name="Check" size={16} className="text-secondary" />
-                    Винтажная прическа
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Красная помада - обязательно
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-primary" />
+                    Винтажная прическа с красными деталями
                   </li>
                 </ul>
               </CardContent>
